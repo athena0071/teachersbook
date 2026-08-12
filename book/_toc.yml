@@ -12,13 +12,15 @@ parts:
     - file: some_content/overview.md
       sections:
       - file: some_content/text_and_code.ipynb
+      - file: file_to_be_added_to_toc.md
+      sections:
   - caption: Exercises
     chapters:
     - file: exercises.md
       sections:
       - file: exercises/001.md
-      - file: exercises/002.md
-      - file: exercises/003.md
+      - file: exercises/001.md
+      - file: exercises/001.md
       - file: exercises/004.md
       - file: exercises/005.md
       - file: exercises/005a.md
@@ -40,6 +42,8 @@ parts:
       - file: extension_exercises/014.md
       - file: extension_exercises/015.md
       - file: extension_exercises/016.md
+   - file: extensions.md
+      sections:
   - caption: Miscellaneous
     chapters:
     - file: references.md
